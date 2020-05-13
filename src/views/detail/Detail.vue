@@ -162,7 +162,7 @@ export default {
     titleClick(index) {
       // console.log(index);
       // 点击标题跳转到不同详情内容, 减44,是因为要减去 头部导航的高度
-      this.$refs.scroll.scrollTo(0, -(this.themeOffSetTopY[index] - 44), 100)
+      this.$refs.scroll.scrollTo(0, -(this.themeOffSetTopY[index]), 100)
     },
     // 内容滚动到那个内容，标题导航激活那个内容
     contentScroll(pos) {

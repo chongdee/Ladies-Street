@@ -10,7 +10,7 @@ module.exports = {
       minPixelValue: 1, // 小于或等于'1px' 不转换为视窗单位
       mediaQuery: false, // 允许在媒体查询中转换'px'
 
-      exclude: [/tabbar/]
+      // exclude: [/tabbar/]
     }
   }
 };

@@ -98,6 +98,7 @@ export default {
         this._getSubcategory(0);
       });
     },
+    // 获取右边内容数据
     _getSubcategory(index) {
       this.currentIndex = index;
       const maitKey = this.categories[index].maitKey;
